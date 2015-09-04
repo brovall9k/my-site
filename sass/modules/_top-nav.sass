@@ -1,0 +1,53 @@
+$top-header-background: #111111
+$top-logo-color: #dddddd
+$top-logo-font-size: 18px
+$top-nav-link-font-size: 16px
+$top-nav-link-color: #aaaaaa
+$top-nav-link-hover: #0074D9
+
+.top-nav
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 50px
+  background-color: $top-header-background
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.5)
+
+.top-logo
+  font-size: $top-logo-font-size
+  margin: 0
+  padding: 15px
+  border-right: 1px solid rgba($top-logo-color, 0.35)
+  float: left
+  color: $top-logo-color
+
+.nav-items
+
+  .nav-item
+    display: inline-block
+    padding: 15px
+    .nav-link
+      text-decoration: none
+      font-size: $top-nav-link-font-size
+      text-transform: uppercase
+      color: $top-nav-link-color
+
+      &:hover
+        color: $top-nav-link-hover
+
+
+
+@media(max-width: 580px)
+  .top-logo
+    display: none
+  .top-nav
+    position: fixed
+    top: calc(100% - 50px)
+
+    .nav-items
+      text-align: center
+    .nav-item
+      font-size: 12px
+      line-height: 50px
+      padding: 0 15px
