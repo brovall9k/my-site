@@ -1,5 +1,5 @@
 $header-container-background: #666666
-$header-logo-color: #e5e9ea
+$header-color: #e5e9ea
 .header-container
   position: fixed
   background:
@@ -12,10 +12,15 @@ $header-logo-color: #e5e9ea
     size: 18px
   padding: 13px
   float: left
-  color: $header-logo-color
+  color: $header-color
 
 .header-navigation
   float: left
-  padding: 10px
+  padding: 12px
+  +shift(2.75)
   .header-item
     display: inline-block
+    padding: 0 30px
+    text-transform: uppercase
+    a
+      color: $header-color
