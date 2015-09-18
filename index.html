@@ -3,29 +3,80 @@
   <head>
     <meta charset="utf-8">
     <title>Thoughts and Ideas / Portfolio of Brandon Stovall</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
   </head>
-
   <body>
     <div class="page-container">
 
-    <nav class="top-nav">
+      <!-- Header Navigation -->
+      <header class="header-container">
+        <h1 class="logo">brandonstovall</h1>
+        <nav class="header-navigation">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </header>
 
-      <h1 class="top-logo">BrandonStovall</h1>
-      <ul class="nav-items">
+      <!-- Sidebar Navigation -->
+      <section class="sidebar-container">
+        <nav class="sidebar-navigation">
+          <ul>
+            <li><a href="#">tutorials</a></li>
+            <li><a href="#">workflow</a></li>
+            <li><a href="#">github project</a></li>
+          </ul>
+        </nav>
+      </section>
 
-        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-      </ul>
-    </nav>
+      <section class="body-container">
 
-  </div> <!-- page-container -->
-  <script src="node_modules\jquery\dist\jquery.min.js"></script>
-  <script src="js\functions.js"></script>
+        <section class="recent-widget-container">
+          <img src="#" alt="back-arrow" />
+          <img src="#" alt="forward-arrow" />
+          <h2 class="recent-widget-title">recent</h2>
+        </section> <!-- recent-widget-container -->
 
-  </script>
+          <!-- big-article -->
+          <section class="big-article">
+            <h1 class="article-title">article title</h1>
+            <img src="#" alt="article-image" />
+            <p class="big-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+
+          <!-- small-article -->
+          <section class="small-article">
+              <h1 class="article-title"></h1>
+              <img src="#" alt="article-image" />
+              <p class="article-text">...click to read article</p>
+          </section>
+
+          <!-- small-article -->
+          <section class="small-article">
+            <h1 class="article-title"></h1>
+            <img src="#" alt="article-image" />
+            <p class="article-text">...click to read article</p>
+          </section>
+      </section> <!-- body-container -->
+
+      <section class="body-contact-info">
+        <p class="body-email-link">stovallxbrandon@gmail.com</p>
+        <img src="#" alt="s-logo" />
+      </section>
+
+      <footer class="body-footer">
+        <p class="body-footer-content">brandonstovall.com | All Rights Reserved</p>
+      </footer>
+    </div> <!-- page-container -->
+
+    <!-- scripts -->
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="js\functions.js"></script>
+    <!-- scripts -->
+    </script>
   </body>
 </html>
