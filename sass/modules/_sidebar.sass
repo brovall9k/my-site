@@ -1,9 +1,21 @@
 $sidebar-container-background: #999999
+$sidebar-item-primary-color: #333
+$sidebar-item-secondary-color: #333
 
 .sidebar-container
   position: fixed
-  +span-columns(2.5 of 12)
+  +span-columns(2)
   top: 50px
   height: 100%
   background:
     color: $sidebar-container-background
+  +span-columns(2.5)
+
+.sidebar-navigation
+  margin-top: 50px
+  .sidebar-item
+    background:
+      color: $sidebar-item-primary-color
+    height: 50px
+    text-align: center
+    font-size: 18px

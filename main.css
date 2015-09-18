@@ -558,14 +558,19 @@ picture {
   max-width: 100%; }
 
 .page-container {
-  max-width: 75em;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  box-sizing: border-box; }
+  max-width: 75em;
+  margin-left: auto;
+  margin-right: auto; }
   .page-container:last-child {
     margin-right: 0; }
+  .page-container::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .header-container {
   position: fixed;
@@ -578,19 +583,41 @@ picture {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 18.96686%;
+  width: 14.70196%;
   top: 50px;
   height: 100%;
-  background-color: #999999; }
+  background-color: #999999;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 18.96686%; }
+  .sidebar-container:last-child {
+    margin-right: 0; }
   .sidebar-container:last-child {
     margin-right: 0; }
 
+.sidebar-navigation {
+  margin-top: 50px; }
+  .sidebar-navigation .sidebar-item {
+    background-color: #333;
+    height: 50px;
+    text-align: center;
+    font-size: 18px; }
+
 .body-container {
-  position: fixed;
-  margin-left: 18.76557%;
   top: 50px;
+  border-left: white;
+  position: fixed;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 80.38145%;
+  margin-left: 18.76557%;
   background-color: #cccccc;
-  height: 100%; }
+  height: 100%;
+  padding: 15px; }
+  .body-container:last-child {
+    margin-right: 0; }
 
 .body-footer {
   position: fixed;
@@ -599,5 +626,10 @@ picture {
   width: 100%;
   background-color: #666666;
   height: 50px; }
+  .body-footer .body-footer-content {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px; }
 
 /*# sourceMappingURL=main.css.map */
