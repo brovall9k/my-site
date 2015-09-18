@@ -578,6 +578,18 @@ picture {
   width: 100%;
   height: 50px; }
 
+.logo {
+  font-size: 18px;
+  padding: 13px;
+  float: left;
+  color: #e5e9ea; }
+
+.header-navigation {
+  float: left;
+  padding: 10px; }
+  .header-navigation .header-item {
+    display: inline-block; }
+
 .sidebar-container {
   position: fixed;
   float: left;

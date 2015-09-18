@@ -1,8 +1,21 @@
 $header-container-background: #666666
-
+$header-logo-color: #e5e9ea
 .header-container
   position: fixed
   background:
     color: $header-container-background
   width: 100%
   height: 50px
+
+.logo
+  font:
+    size: 18px
+  padding: 13px
+  float: left
+  color: $header-logo-color
+
+.header-navigation
+  float: left
+  padding: 10px
+  .header-item
+    display: inline-block
