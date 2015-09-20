@@ -1,7 +1,3 @@
-$sidebar-container-background: #999999
-$sidebar-item-primary-color: #333
-$sidebar-item-secondary-color: #993333
-
 .sidebar-container
   position: fixed
   +span-columns(2)
@@ -15,7 +11,7 @@ $sidebar-item-secondary-color: #993333
   margin-top: 100px
   .sidebar-item
     background:
-      color: $sidebar-item-primary-color
+      color: $sidebar-item-background
     height: 50px
     text-align: center
     font-size: 16px
@@ -23,11 +19,11 @@ $sidebar-item-secondary-color: #993333
     text-transform: uppercase
 
     &:hover
-      background: $sidebar-item-secondary-color
+      background: $sidebar-item-background-focused
       cursor: pointer
     &:hover
-      background: $sidebar-item-secondary-color
+      background: $sidebar-item-background-focused
       cursor: pointer
 
     a
-      color: white
+      color: $sidebar-item-color
