@@ -586,14 +586,20 @@ picture {
 
 .header-navigation {
   float: left;
-  padding: 12px;
   margin-left: 23.45696%; }
   .header-navigation .header-item {
     display: inline-block;
     padding: 0 30px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    line-height: 50px; }
+    .header-navigation .header-item:hover {
+      background: #993333;
+      cursor: pointer; }
     .header-navigation .header-item a {
       color: #e5e9ea; }
+
+.header-item-focused {
+  background: #993333; }
 
 .sidebar-container {
   position: fixed;
