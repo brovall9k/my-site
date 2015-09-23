@@ -365,25 +365,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, rgba(0, 0, 0, 0.75) 0, rgba(0, 0, 0, 0.75) 6.17215%, transparent 6.17215%, transparent 8.5298%, rgba(0, 0, 0, 0.75) 8.5298%, rgba(0, 0, 0, 0.75) 14.70196%, transparent 14.70196%, transparent 17.05961%, rgba(0, 0, 0, 0.75) 17.05961%, rgba(0, 0, 0, 0.75) 23.23176%, transparent 23.23176%, transparent 25.58941%, rgba(0, 0, 0, 0.75) 25.58941%, rgba(0, 0, 0, 0.75) 31.76157%, transparent 31.76157%, transparent 34.11922%, rgba(0, 0, 0, 0.75) 34.11922%, rgba(0, 0, 0, 0.75) 40.29137%, transparent 40.29137%, transparent 42.64902%, rgba(0, 0, 0, 0.75) 42.64902%, rgba(0, 0, 0, 0.75) 48.82117%, transparent 48.82117%, transparent 51.17883%, rgba(0, 0, 0, 0.75) 51.17883%, rgba(0, 0, 0, 0.75) 57.35098%, transparent 57.35098%, transparent 59.70863%, rgba(0, 0, 0, 0.75) 59.70863%, rgba(0, 0, 0, 0.75) 65.88078%, transparent 65.88078%, transparent 68.23843%, rgba(0, 0, 0, 0.75) 68.23843%, rgba(0, 0, 0, 0.75) 74.41059%, transparent 74.41059%, transparent 76.76824%, rgba(0, 0, 0, 0.75) 76.76824%, rgba(0, 0, 0, 0.75) 82.94039%, transparent 82.94039%, transparent 85.29804%, rgba(0, 0, 0, 0.75) 85.29804%, rgba(0, 0, 0, 0.75) 91.4702%, transparent 91.4702%, transparent 93.82785%, rgba(0, 0, 0, 0.75) 93.82785%, rgba(0, 0, 0, 0.75) 100.0%, transparent 100.0%);
-  background-image: -moz-linear-gradient(left, transparent 0, rgba(0, 0, 0, 0.75) 0, rgba(0, 0, 0, 0.75) 6.17215%, transparent 6.17215%, transparent 8.5298%, rgba(0, 0, 0, 0.75) 8.5298%, rgba(0, 0, 0, 0.75) 14.70196%, transparent 14.70196%, transparent 17.05961%, rgba(0, 0, 0, 0.75) 17.05961%, rgba(0, 0, 0, 0.75) 23.23176%, transparent 23.23176%, transparent 25.58941%, rgba(0, 0, 0, 0.75) 25.58941%, rgba(0, 0, 0, 0.75) 31.76157%, transparent 31.76157%, transparent 34.11922%, rgba(0, 0, 0, 0.75) 34.11922%, rgba(0, 0, 0, 0.75) 40.29137%, transparent 40.29137%, transparent 42.64902%, rgba(0, 0, 0, 0.75) 42.64902%, rgba(0, 0, 0, 0.75) 48.82117%, transparent 48.82117%, transparent 51.17883%, rgba(0, 0, 0, 0.75) 51.17883%, rgba(0, 0, 0, 0.75) 57.35098%, transparent 57.35098%, transparent 59.70863%, rgba(0, 0, 0, 0.75) 59.70863%, rgba(0, 0, 0, 0.75) 65.88078%, transparent 65.88078%, transparent 68.23843%, rgba(0, 0, 0, 0.75) 68.23843%, rgba(0, 0, 0, 0.75) 74.41059%, transparent 74.41059%, transparent 76.76824%, rgba(0, 0, 0, 0.75) 76.76824%, rgba(0, 0, 0, 0.75) 82.94039%, transparent 82.94039%, transparent 85.29804%, rgba(0, 0, 0, 0.75) 85.29804%, rgba(0, 0, 0, 0.75) 91.4702%, transparent 91.4702%, transparent 93.82785%, rgba(0, 0, 0, 0.75) 93.82785%, rgba(0, 0, 0, 0.75) 100.0%, transparent 100.0%);
-  background-image: -ms-linear-gradient(left, transparent 0, rgba(0, 0, 0, 0.75) 0, rgba(0, 0, 0, 0.75) 6.17215%, transparent 6.17215%, transparent 8.5298%, rgba(0, 0, 0, 0.75) 8.5298%, rgba(0, 0, 0, 0.75) 14.70196%, transparent 14.70196%, transparent 17.05961%, rgba(0, 0, 0, 0.75) 17.05961%, rgba(0, 0, 0, 0.75) 23.23176%, transparent 23.23176%, transparent 25.58941%, rgba(0, 0, 0, 0.75) 25.58941%, rgba(0, 0, 0, 0.75) 31.76157%, transparent 31.76157%, transparent 34.11922%, rgba(0, 0, 0, 0.75) 34.11922%, rgba(0, 0, 0, 0.75) 40.29137%, transparent 40.29137%, transparent 42.64902%, rgba(0, 0, 0, 0.75) 42.64902%, rgba(0, 0, 0, 0.75) 48.82117%, transparent 48.82117%, transparent 51.17883%, rgba(0, 0, 0, 0.75) 51.17883%, rgba(0, 0, 0, 0.75) 57.35098%, transparent 57.35098%, transparent 59.70863%, rgba(0, 0, 0, 0.75) 59.70863%, rgba(0, 0, 0, 0.75) 65.88078%, transparent 65.88078%, transparent 68.23843%, rgba(0, 0, 0, 0.75) 68.23843%, rgba(0, 0, 0, 0.75) 74.41059%, transparent 74.41059%, transparent 76.76824%, rgba(0, 0, 0, 0.75) 76.76824%, rgba(0, 0, 0, 0.75) 82.94039%, transparent 82.94039%, transparent 85.29804%, rgba(0, 0, 0, 0.75) 85.29804%, rgba(0, 0, 0, 0.75) 91.4702%, transparent 91.4702%, transparent 93.82785%, rgba(0, 0, 0, 0.75) 93.82785%, rgba(0, 0, 0, 0.75) 100.0%, transparent 100.0%);
-  background-image: -o-linear-gradient(left, transparent 0, rgba(0, 0, 0, 0.75) 0, rgba(0, 0, 0, 0.75) 6.17215%, transparent 6.17215%, transparent 8.5298%, rgba(0, 0, 0, 0.75) 8.5298%, rgba(0, 0, 0, 0.75) 14.70196%, transparent 14.70196%, transparent 17.05961%, rgba(0, 0, 0, 0.75) 17.05961%, rgba(0, 0, 0, 0.75) 23.23176%, transparent 23.23176%, transparent 25.58941%, rgba(0, 0, 0, 0.75) 25.58941%, rgba(0, 0, 0, 0.75) 31.76157%, transparent 31.76157%, transparent 34.11922%, rgba(0, 0, 0, 0.75) 34.11922%, rgba(0, 0, 0, 0.75) 40.29137%, transparent 40.29137%, transparent 42.64902%, rgba(0, 0, 0, 0.75) 42.64902%, rgba(0, 0, 0, 0.75) 48.82117%, transparent 48.82117%, transparent 51.17883%, rgba(0, 0, 0, 0.75) 51.17883%, rgba(0, 0, 0, 0.75) 57.35098%, transparent 57.35098%, transparent 59.70863%, rgba(0, 0, 0, 0.75) 59.70863%, rgba(0, 0, 0, 0.75) 65.88078%, transparent 65.88078%, transparent 68.23843%, rgba(0, 0, 0, 0.75) 68.23843%, rgba(0, 0, 0, 0.75) 74.41059%, transparent 74.41059%, transparent 76.76824%, rgba(0, 0, 0, 0.75) 76.76824%, rgba(0, 0, 0, 0.75) 82.94039%, transparent 82.94039%, transparent 85.29804%, rgba(0, 0, 0, 0.75) 85.29804%, rgba(0, 0, 0, 0.75) 91.4702%, transparent 91.4702%, transparent 93.82785%, rgba(0, 0, 0, 0.75) 93.82785%, rgba(0, 0, 0, 0.75) 100.0%, transparent 100.0%);
-  background-image: linear-gradient(to left, transparent 0, rgba(0, 0, 0, 0.75) 0, rgba(0, 0, 0, 0.75) 6.17215%, transparent 6.17215%, transparent 8.5298%, rgba(0, 0, 0, 0.75) 8.5298%, rgba(0, 0, 0, 0.75) 14.70196%, transparent 14.70196%, transparent 17.05961%, rgba(0, 0, 0, 0.75) 17.05961%, rgba(0, 0, 0, 0.75) 23.23176%, transparent 23.23176%, transparent 25.58941%, rgba(0, 0, 0, 0.75) 25.58941%, rgba(0, 0, 0, 0.75) 31.76157%, transparent 31.76157%, transparent 34.11922%, rgba(0, 0, 0, 0.75) 34.11922%, rgba(0, 0, 0, 0.75) 40.29137%, transparent 40.29137%, transparent 42.64902%, rgba(0, 0, 0, 0.75) 42.64902%, rgba(0, 0, 0, 0.75) 48.82117%, transparent 48.82117%, transparent 51.17883%, rgba(0, 0, 0, 0.75) 51.17883%, rgba(0, 0, 0, 0.75) 57.35098%, transparent 57.35098%, transparent 59.70863%, rgba(0, 0, 0, 0.75) 59.70863%, rgba(0, 0, 0, 0.75) 65.88078%, transparent 65.88078%, transparent 68.23843%, rgba(0, 0, 0, 0.75) 68.23843%, rgba(0, 0, 0, 0.75) 74.41059%, transparent 74.41059%, transparent 76.76824%, rgba(0, 0, 0, 0.75) 76.76824%, rgba(0, 0, 0, 0.75) 82.94039%, transparent 82.94039%, transparent 85.29804%, rgba(0, 0, 0, 0.75) 85.29804%, rgba(0, 0, 0, 0.75) 91.4702%, transparent 91.4702%, transparent 93.82785%, rgba(0, 0, 0, 0.75) 93.82785%, rgba(0, 0, 0, 0.75) 100.0%, transparent 100.0%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 75em;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1; }
-
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
   background-color: #477dca;
@@ -579,7 +560,8 @@ picture {
   position: fixed;
   background-color: #666666;
   width: 100%;
-  height: 50px; }
+  height: 50px;
+  z-index: 1; }
 
 .logo {
   font-size: 18px;
@@ -605,20 +587,15 @@ picture {
   background: #993333; }
 
 .sidebar-container {
-  position: fixed;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 14.70196%;
+  position: absolute;
+  z-index: 0;
   top: 50px;
   height: 100%;
   background-color: #999999;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 18.96686%; }
-  .sidebar-container:last-child {
-    margin-right: 0; }
+  width: 16.83441%; }
   .sidebar-container:last-child {
     margin-right: 0; }
 
@@ -641,17 +618,17 @@ picture {
       color: #e5e9ea; }
 
 .body-container {
-  top: 50px;
+  top: 500px;
   border-left: white;
-  position: fixed;
+  background-color: #cccccc;
+  height: 100%;
+  padding: 15px;
+  padding-top: 60px;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 81.23443%;
-  margin-left: 18.76557%;
-  background-color: #cccccc;
-  height: 100%;
-  padding: 15px; }
+  width: 83.79337%;
+  margin-left: 16.20663%; }
   .body-container:last-child {
     margin-right: 0; }
 
@@ -674,7 +651,7 @@ picture {
 
 .body-article {
   clear: left;
-  padding-top: 20px; }
+  padding: 20px; }
 
 article.type-system-serif {
   font-family: "Merriweather", serif;
@@ -778,7 +755,6 @@ article.type-system-serif {
 .body-footer {
   position: fixed;
   bottom: 0;
-  margin-left: 18.76557%;
   width: 100%;
   background-color: #666666;
   height: 50px; }
