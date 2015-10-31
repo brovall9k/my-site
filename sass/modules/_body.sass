@@ -1,30 +1,53 @@
-.body-container
-  top: 500px
-  border-left: white
-  background:
-    color: $body-container-background
-  height: 100%
-  padding: 15px
-  padding-top: 60px
-  +span-columns(10.1)
-  +shift(1.9)
+.primaryContent
+  +outer-container
+  z-index: 0
+  margin-top: 30px
 
-.body-arrow
-  font-size: 28px
-  display: block
+input[type="text"]
+  +span-columns(8)
+  +shift(2)
+  +omega()
+  padding-left: 30px
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.25)
+  margin-bottom: 20px
+
+.articleThumb
+  +span-columns(3 of 12)
+  +omega()
+  height: 300px
+  margin: 0px 5px 10px 5px
+  border: 1px solid $article-background-hover
+  border-radius: 2%
+  background:
+    color: $article-background
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.25)
+  z-index: 1
+
+  .articleHeader
+    +span-columns(4 of 4)
+    .articleImage
+      +span-columns(2 of 4)
+      +shift(1)
+      max-width: 100px
+      max-height: 100px
+      padding: 20px
+    .articleTitle
+      +span-columns(4 of 4)
+      color: $article-title-color
+      font:
+        size: 0.85em
+      padding: 10px
+      text-align: center
+      border-top: 1px solid darken($article-background, 20%)
+      border-bottom: 1px solid darken($article-background, 20%)
+  //articleThumb Hover
   &:hover
-    font-weight: bold
+    border: 1px solid $header-background
+    .articleTitle
+      background:
+        color: $article-background-hover
     cursor: pointer
 
-.arrow-back
-  float: left
-.arrow-forward
-  float: right
-.recent-widget-title
-  margin-top: 50px
-  text-align: center
-
-
-.body-article
-  clear: left
-  padding: 20px
+  .articleText
+    font-size: 14px
+    padding: 20px

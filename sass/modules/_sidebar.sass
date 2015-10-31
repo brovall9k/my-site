@@ -1,32 +1,16 @@
-.sidebar-container
-  position: absolute
-  z-index: 0
+.primarySidebar
+  position: fixed
   top: 50px
-  height: 100%
+  left: 0
+  width: 80px
   background:
-    color: $sidebar-container-background
-  +span-columns(2.25)
+    color: $sidebar-background
+  height: 100%
 
-.sidebar-navigation
-  margin-top: 100px
-  .sidebar-item
-    background:
-      color: $sidebar-item-background
-    height: 50px
+  li
+    width: 100%
+    padding: 20px 0
     text-align: center
-    font-size: 16px
-    padding-top: 10px
-    text-transform: uppercase
-
-    &:hover
-      background: $sidebar-item-background-focused
-      cursor: pointer
-    &:hover
-      background: $sidebar-item-background-focused
-      cursor: pointer
-
+    background: $sidebar-item-background
     a
       color: $sidebar-item-color
-
-  .sidebar-item-focused
-    background: $header-item-color-focused

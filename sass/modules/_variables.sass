@@ -1,19 +1,26 @@
 //Header
-$header-container-background: #666666
-$header-item-color: #e5e9ea
-$header-item-color-focused: #993333
+$header-background: #666666
+$primaryNav-color: #e5e9ea
+$primaryNav-color-focused: #993333
+$header-logo-border: lighten($header-background, 10%)
 
 //Sidebar
-$sidebar-container-background: #999999
+$sidebar-background: #999999
 $sidebar-item-background: #333333
-$sidebar-item-background-focused: $header-item-color-focused
-$sidebar-item-color: $header-item-color
+$sidebar-item-background-focused: $primaryNav-color-focused
+$sidebar-item-color: $primaryNav-color
 
 
 //Body
-$body-container-background: #cccccc
-$body-recent-arrow-border: $header-item-color
-$body-footer-background: $header-container-background
+$body-background: #cccccc
+$body-recent-arrow-border: $primaryNav-color
+$body-footer-background: $header-background
+
+//Article
+$article-background: lighten($body-background, 3%)
+$article-background-hover: darken($body-background, 5%)
+$article-title-color: $sidebar-item-background
 
 //Footer
-$footer-text: $header-item-color
+$footer-background: $header-background
+$footer-text: $primaryNav-color

@@ -1,18 +1,21 @@
 $(document).ready(function(){
-
-
-
+  sidebarMovement();
+  sidebarFocus();
 });
 
-/*
-when the topmost sidebar-item reaches the top
-of the sidebar-container...the position of the
-sidebar-items becomes fixed at ( top: 0; )
-*/
+function sidebarMovement(){
+  /*create a function to monitor the y-position of the topmost $(.sidebar-item)
+    -- when this function returns 0 or that the $(.sidebar-item) is top: 0;
+    -- change the $(.sidebar-container) position from absolute, to fixed positioning
+  */
+  console.log("sidebarMovement");
+}
 
-/*
-whenever a $(".sidebar-item") is clicked the
-$(.sidebar-item-focused) class is toggeled "off"
-the currently "focused" item and toggels the
-class "on" for the newly clicked $(".sidebar-item")
-*/
+function sidebarFocus(){
+  /*create a function that changes the background-color of $(.sidebar-item)
+    -- to $sidebar-item-background-focused when it is clicked on
+    -- also needs to remove the $sidebar-item-background-focused from the
+       previous $(.sidebar-item)
+  */
+  console.log("sidebarFocus");
+}

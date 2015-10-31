@@ -7,74 +7,243 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-      <!-- Header Navigation -->
-      <header class="header-container">
-        <h1 class="logo">brandonstovall</h1>
-        <nav class="header-navigation">
+
+    <!-- Full Width Header -->
+    <header class="primaryHeader">
+      <div class="primaryContainer">
+      <aside class="logo">brandonstovall</aside>
+        <nav class="primaryNav">
           <ul>
-            <li class="header-item header-item-focused"><a href="#">home</a></li>
-            <li class="header-item"><a href="#">about</a></li>
-            <li class="header-item"><a href="#">portfolio</a></li>
-            <li class="header-item"><a href="#">contact</a></li>
+            <li><a href="#" class="primary-selected">home</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
           </ul>
         </nav>
-      </header>
+      </div>
+    </header>
 
-    <div class="page-container">
-      <!-- Sidebar Navigation -->
-      <section class="sidebar-container">
-        <nav class="sidebar-navigation">
-          <ul>
-            <li class="sidebar-item sidebar-item-focused"><a href="#">articles</a></li>
-            <li class="sidebar-item"><a href="#">tutorials</a></li>
-            <li class="sidebar-item"><a href="#">reviews</a></li>
-            <li class="sidebar-item"><a href="#">programming</a></li>
-            <li class="sidebar-item"><a href="#">workflow</a></li>
-            <li class="sidebar-item"><a href="#">github project</a></li>
-          </ul>
-        </nav>
-      </section>
+    <!-- Encapsule everything under the primaryHeader into a malleable container -->
+    <div class="capsule">
 
-      <section class="body-container">
-        <span class="body-arrow arrow-back"><</span>
-        <span class="body-arrow arrow-forward">></span>
-        <h2 class="recent-widget-title">Recent Articles</h2>
-        <hr class="type-system-serif">
+    <!-- Full Height Sidebar With Scripted Nav-->
+    <aside class="primarySidebar">
+      <nav class="sidebarNav">
+        <ul>
+          <li><a href="#"><img src="#" alt=""></a></li>
+          <li><a href="#"><img src="#" alt=""></a></li>
+          <li><a href="#"><img src="#" alt=""></a></li>
+          <li><a href="#"><img src="#" alt=""></a></li>
+          <li><a href="#"><img src="#" alt=""></a></li>
+        </ul>
+      </nav>
+    </aside>
 
-        <article class="type-system-serif body-article">
-          <h1>Article Heading</h1>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, perferendis! Odit quisquam <code>code block</code> dicta illum ipsa quod natus iure aliquid necessitatibus veritatis, itaque magnam aliquam, dolorum nostrum nemo, explicabo perspiciatis nobis!</h2>
+    <!-- A container for the actual information within the site. -->
+    <!-- ex: articles, tutorials, anything that's awesome -->
+    <section class="primaryContent">
+      <!-- Search for content -->
+      <input type="text" name="primarySearch" placeholder="...search for an article or review">
 
-          <p class="date">30 Mar 2014</p>
+      <!-- Thumbs for articles, tutorials, ect... -->
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">Optimize Your Computer</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
 
-          <p><span>Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit. Consequatur a, ullam, voluptatum incidunt neque doloremque vel inventore distinctio laudantium harum</a> illo quam nulla dolor alias iure impedit! Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad libero commodi modi nisi numquam eos neque non doloremque unde eveniet ab molestiae fugiat, corporis doloribus nihil voluptate porro. Quos, possimus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sapiente amet, quos ab veniam nisi doloremque perferendis quas. Tempore eos, aut, autem culpa natus consequuntur ducimus sapiente placeat sint recusandae.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt facere eos dolores, ea officia voluptas nostrum eius soluta culpa fugiat. Esse inventore, porro architecto expedita? Dicta quos vitae, quasi repellat!
-          <a href="javascript:void(0)" class="read-more">Read More <span>&rsaquo;</span></a>
-          </p>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="img/ccleaner-logo.png" alt="" class="articleImage">
+          <h1 class="articleTitle">Ccleaner Review</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
 
-          <h3>Subheading lorem</h3>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="img/malwarebytes-logo.png" alt="" class="articleImage">
+          <h1 class="articleTitle">Malwarebytes Review</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
 
-          <p><span>Consequatur ullam, voluptatum</span> incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit. Accusamus. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit! Accusamus.</p>
-          <hr>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">How to: Beginner Web Developing</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
 
-          <p class="author">Author Name</p>
-        </article>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">Article or Review.</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Windows 10, Ubuntu 15.10, Mac OSX El Capitan, Atom, Terminal Tips, Ruby Gems, Sass, Bower, Homebrew</p>
+        </section>
+      </div>
 
-      </section> <!-- body-container -->
-    </div> <!-- page-container -->
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p></section>
+      </div>
 
-      <section class="body-contact-info">
-        <p class="body-email-link">stovallxbrandon@gmail.com</p>
-        <img src="#" alt="s-logo" />
-      </section>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
 
-      <footer class="body-footer">
-        <p class="body-footer-content">brandonstovall.com | All Rights Reserved</p>
-      </footer>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
+      <div class="articleThumb">
+        <header class="articleHeader">
+          <img src="#" alt="" class="articleImage">
+          <h1 class="articleTitle">article title</h1>
+        </header>
+        <section class="articleBody">
+          <p class="articleText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia molestiae
+            doloremque voluptates officiis ipsum tempore autem aliquam aut adipisci magni</p>
+        </section>
+      </div>
+    <!-- primaryContent -->
+    </section>
+    <!-- end capsule -->
+    </div>
+    <footer class="primaryFooter">
+      <p>brandonstovall &copy; 2015 | All Rights Reserved</p>
+    </footer>
+
+
+
 
     <!-- scripts -->
     <script src="node_modules\jquery\dist\jquery.min.js"></script>
     <script src="js\functions.js"></script>
-    <!-- scripts -->
-    </script>
   </body>
 </html>

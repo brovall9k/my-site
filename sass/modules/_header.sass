@@ -1,31 +1,40 @@
-.header-container
+.primaryHeader
   position: fixed
-  background:
-    color: $header-container-background
-  width: 100%
-  height: 50px
   z-index: 1
+  width: 100%
+  top: 0
+  height: 50px
+  background: $header-background
 
-.logo
-  font:
-    size: 18px
-  padding: 13px
-  float: left
-  color: $header-item-color
+  .primaryContainer
+    +outer-container
+    .logo
+      +span-columns(2)
+      +shift(-1)
+      border-right: 1px solid $header-logo-border
+      text-align: center
+      font:
+        size: 18px
+        weight: bold
+      line-height: 50px
+      color: $primaryNav-color
 
-.header-navigation
-  float: left
-  +shift(2.75)
-  .header-item
-    display: inline-block
-    padding: 0 30px
-    text-transform: uppercase
-    line-height: 50px
-    &:hover
-      background: $header-item-color-focused
-      cursor: pointer
-    a
-      color: $header-item-color
 
-.header-item-focused
-  background: $header-item-color-focused
+    .primaryNav
+      line-height: 50px
+      ul
+        li
+          display: inline-block
+          +span-columns(1.5)
+          text-align: center
+          &:hover
+            background:
+              color: $primaryNav-color-focused
+            cursor: pointer
+            line-height: 48px
+          a
+            color: $primaryNav-color
+            text-transform: uppercase
+            font:
+              size: 0.9em
+              weight: bold
