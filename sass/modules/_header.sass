@@ -9,8 +9,10 @@
   .primaryContainer
     +outer-container
     .logo
-      +span-columns(2)
-      +shift(-1)
+      position: absolute
+      top: 0
+      left: 0
+      padding: 0 20px
       border-right: 1px solid $header-logo-border
       text-align: center
       font:
@@ -22,6 +24,7 @@
 
     .primaryNav
       line-height: 50px
+      +shift(1)
       ul
         li
           display: inline-block
@@ -31,7 +34,7 @@
             background:
               color: $primaryNav-color-focused
             cursor: pointer
-            line-height: 48px
+            line-height: 50px
           a
             color: $primaryNav-color
             text-transform: uppercase

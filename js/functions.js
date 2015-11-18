@@ -1,6 +1,7 @@
 $(document).ready(function(){
   sidebarMovement();
   sidebarFocus();
+  articleClicked();
 });
 
 function sidebarMovement(){
@@ -18,4 +19,10 @@ function sidebarFocus(){
        previous $(.sidebar-item)
   */
   console.log("sidebarFocus");
+}
+
+function articleClicked(){
+  $('.isClick').on("click", function(){
+    alert('When an article is clicked... use AJAX & Jquery to switch out the article content for the full length article, and a back arrow [<]');
+  });
 }
